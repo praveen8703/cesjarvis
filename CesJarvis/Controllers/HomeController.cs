@@ -1,4 +1,5 @@
-﻿using CesJarvis.Models.Request;
+﻿using ApiAiSDK.Model;
+using CesJarvis.Models.Request;
 using CesJarvis.Models.Response;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -12,13 +13,25 @@ namespace CesJarvis.Controllers
     {
         [Route("getresponse")]
         [HttpPost]
-        public JsonResult GetResponse([FromBody]RequestBody request)
+        public JsonResult GetResponse([FromBody]AIRequest request)
         {
-            ResponseBody response = new ResponseBody
+            AIResponse response = new AIResponse
             {
-                displayText = "I AM GROOT",
-                speech = "I AM GROOT",
-                source = "ces_getresponse"
+                Status = new ApiAiSDK.Model.Status {
+                    Code = 200,
+                    ErrorType = "success"
+                },
+                Id = Guid.NewGuid().ToString(),
+                Lang = "english-us",
+                Result = new ApiAiSDK.Model.Result {
+                    Source = "AWS ces_jarvis",
+                    Action = "testaction",
+                    Fulfillment = new ApiAiSDK.Model.Fulfillment {
+                        Speech = "I AM GROOT",
+                        DisplayText = "I AM GROOT",
+                        Source = "ces_getresponse"
+                    }
+                }
             };
             return Json(response);
         }
