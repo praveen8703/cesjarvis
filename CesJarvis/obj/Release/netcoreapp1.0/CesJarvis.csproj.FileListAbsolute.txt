@@ -1,0 +1,9 @@
+c:\users\pammanji\documents\visual studio 2017\Projects\CesJarvis\CesJarvis\bin\Release\netcoreapp1.0\appsettings.json
+c:\users\pammanji\documents\visual studio 2017\Projects\CesJarvis\CesJarvis\bin\Release\netcoreapp1.0\CesJarvis.deps.json
+c:\users\pammanji\documents\visual studio 2017\Projects\CesJarvis\CesJarvis\bin\Release\netcoreapp1.0\CesJarvis.dll
+c:\users\pammanji\documents\visual studio 2017\Projects\CesJarvis\CesJarvis\bin\Release\netcoreapp1.0\CesJarvis.pdb
+c:\users\pammanji\documents\visual studio 2017\Projects\CesJarvis\CesJarvis\obj\Release\netcoreapp1.0\CesJarvis.csproj.CoreCompileInputs.cache
+c:\users\pammanji\documents\visual studio 2017\Projects\CesJarvis\CesJarvis\obj\Release\netcoreapp1.0\CesJarvis.AssemblyInfoInputs.cache
+c:\users\pammanji\documents\visual studio 2017\Projects\CesJarvis\CesJarvis\obj\Release\netcoreapp1.0\CesJarvis.AssemblyInfo.cs
+c:\users\pammanji\documents\visual studio 2017\Projects\CesJarvis\CesJarvis\obj\Release\netcoreapp1.0\CesJarvis.dll
+c:\users\pammanji\documents\visual studio 2017\Projects\CesJarvis\CesJarvis\obj\Release\netcoreapp1.0\CesJarvis.pdb
